@@ -1,12 +1,12 @@
 # Java Maze Solver (MVVM)
 
-## 🚀 Overview
+##  Overview
 This project is a maze generation and solving system built in Java.  
 It combines algorithms, client-server communication, multithreading, and a graphical interface using JavaFX.
 
 Users can generate random mazes, solve them using search algorithms, and interact with them through a desktop GUI.
 
-## ✨ Features
+##  Features
 - Maze generation (2D mazes)
 - Maze solving using search algorithms
 - Client-server architecture
@@ -16,20 +16,20 @@ Users can generate random mazes, solve them using search algorithms, and interac
 - MVVM architecture
 - Event-driven programming
 
-## 🛠 Technologies
+##  Technologies
 - Java
 - JavaFX
 - Threads (Multithreading)
 - TCP Client-Server
 - Streams & File Handling
 
-## 📌 Project Structure
+##  Project Structure
 - model – maze logic and algorithms
 - view – GUI (JavaFX)
 - viewmodel – MVVM logic
 - server – server and client communication
 
-## 🎯 Purpose
+##  Purpose
 This project demonstrates skills in:
 - Object-Oriented Programming (OOP)
 - Design Patterns (MVVM, Decorator)
