@@ -37,7 +37,7 @@ This project demonstrates skills in:
 - Networking
 - Software architecture
 
-## 📈 Future Improvements
+##  Future Improvements
 - Add more solving algorithms
 - Improve GUI design
 - Add difficulty levels
