@@ -1,22 +1,44 @@
-# Maze Solver Project – Java
+# Java Maze Solver (MVVM)
 
-## Overview
+## 🚀 Overview
+This project is a maze generation and solving system built in Java.  
+It combines algorithms, client-server communication, multithreading, and a graphical interface using JavaFX.
 
-In this project, I implemented a **maze solver** in Java. The goal is to navigate a character through a maze from an entrance to an exit using valid moves (up, down, left, right), avoiding walls.  
+Users can generate random mazes, solve them using search algorithms, and interact with them through a desktop GUI.
 
-The maze is represented as a **2D array of integers**:
+## ✨ Features
+- Maze generation (2D mazes)
+- Maze solving using search algorithms
+- Client-server architecture
+- Multithreading with Java Threads
+- File compression using Streams and Decorator pattern
+- JavaFX GUI
+- MVVM architecture
+- Event-driven programming
 
-- `1` → wall (blocked cell)  
-- `0` → open path (free cell)  
+## 🛠 Technologies
+- Java
+- JavaFX
+- Threads (Multithreading)
+- TCP Client-Server
+- Streams & File Handling
 
-Example representation:
+## 📌 Project Structure
+- model – maze logic and algorithms
+- view – GUI (JavaFX)
+- viewmodel – MVVM logic
+- server – server and client communication
 
-```java
-int[][] maze = {
-    {0,0,1,0,1,0,0,0,1},
-    {1,0,1,0,1,0,1,0,0},
-    {1,0,0,0,0,0,0,1,1},
-    {1,0,1,1,0,1,0,1,1},
-    {0,0,1,1,0,1,0,1,1},
-    {1,1,0,0,0,1,0,0,0}
-};
+## 🎯 Purpose
+This project demonstrates skills in:
+- Object-Oriented Programming (OOP)
+- Design Patterns (MVVM, Decorator)
+- Multithreading
+- Networking
+- Software architecture
+
+## 📈 Future Improvements
+- Add more solving algorithms
+- Improve GUI design
+- Add difficulty levels
+- Save/load mazes
